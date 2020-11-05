@@ -1,4 +1,6 @@
-﻿Get-Content '.\UPN GTI.txt' | Select-String 777, 88, 90
+﻿### Testando o Select-String
+ 
+ Get-Content '.\UPN GTI.txt' | Select-String 777, 88, 90
 
 Select-String -Pattern 10 '.\UPN GTI.txt'
 
